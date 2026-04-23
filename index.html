@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psi. Ariel Mercya | Psicóloga</title> 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+         theme:{
+            extend:{
+                colors:{
+                    'creme': '#F9F7F2',
+                    'taupe': '#8B7D72' ,
+                    'taupe-escuro': '#665C54',
+                },
+
+                fontFamily:{
+                    sans: ['Outfit', 'sans-serif'],
+                    serif: ['Lora', 'serif'],       
+                }
+
+            }
+         }
+
+        }
+
+    </script>
+</head>
+<body class="bg-creme text-taupe font-sans">
+
+    <header class="w-full py-6 px-8 md:px-16 flex justify-between items-center">
+        <div class="text-2xl font-semibold tracking-wide">
+            Psi. Ariel Mercya
+        </div>
+
+        <div class="flex items-center gap-8">
+            <nav class="hidden md:flex gap-8 font-medium">
+                <a href="#sobre" class="hover:text-taupe-escuro transition">Sobre</a>
+                <a href="#especialidades" class="hover:text-taupe-escuro transition">Especialidades</a>
+                <a href="#contato" class="hover:text-taupe-escuro transition">Contato</a>
+            </nav>
+
+            <a href="#contato" class="hidden sm:inline-block bg-[#665C54] text-[#F9F7F2] px-6 py-2.5 rounded-full font-medium hover:bg-[#8B7D72] transition-all shadow-sm hover:shadow-md">
+                Entrar em Contato
+            </a>
+        </div>
+    </header>
+    
+    <!--Apresentação-->
+    <section class="max-w-7xl mx-auto px-8 md:px-16 py-16 md:py-28 grid grid-cols-1 md:grid-cols-2 gap-16 items-center animate-fadeIn">
+
+    <div class="w-full flex justify-center md:justify-start">
+        <div class="relative w-full max-w-lg lg:max-w-xl">
+            <img src="assets/foto.jpeg" alt="Foto da Psicóloga Ariel Mercya" 
+                 class="w-full h-auto rounded-2xl shadow-sm object-cover aspect-[4/5] animate-scaleIn">
+        </div>
+    </div>
+
+    <div class="flex flex-col gap-8">
+        
+        <div class="animate-fadeInUp" style="animation-delay: 0.1s;">
+            <span class="text-xs md:text-sm tracking-wider text-[#8B7D72] border border-[#8B7D72]/30 bg-[#8B7D72]/5 rounded-full px-5 py-2 w-max uppercase font-medium">
+                Psicóloga • Análise do Comportamento
+            </span>
+        </div>
+
+        <h1 class="text-5xl md:text-6xl lg:text-7xl font-serif text-[#665C54] leading-[1.1] animate-fadeInUp" style="animation-delay: 0.2s;">
+            Viva com mais <br> leveza, sentido e <br> menos sofrimento
+        </h1>
+
+        <p class="text-lg md:text-xl text-[#A89B91] leading-relaxed max-w-lg animate-fadeInUp" style="animation-delay: 0.3s;">
+            Um espaço seguro e acolhedor onde você pode falar com liberdade sobre o que está vivendo, refletir e construir caminhos mais saudáveis para sua vida.
+        </p>
+
+        <div class="flex flex-wrap gap-5 mt-4 animate-fadeInUp" style="animation-delay: 0.4s;">
+            <a href="#contato" class="bg-[#665C54] text-[#F9F7F2] px-10 py-4 rounded-full font-medium hover:bg-[#8B7D72] transition-all shadow-sm hover:shadow-md">
+                Vamos Conversar
+            </a>
+            <a href="#sobre" class="border border-[#8B7D72] text-[#8B7D72] px-10 py-4 rounded-full font-medium hover:bg-[#8B7D72] hover:text-[#F9F7F2] transition-all">
+                Saiba Mais
+            </a>
+        </div>
+
+    </div>
+
+</section>
+
+    <section id="sobre" class="w-full bg-creme py-20  px-8 md:px-16">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <span class="text-sm tracking-widest uppercase font-medium">Sobre Mim</span>
+                <h2 class="text-3xl md:text-4xl font-serif text-taupe-escuro mt-4">
+                    Um Espaço Feito Para Você
+                </h2>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+
+            <div class="flex flex-col gap-6 text-lg leading-relaxed">
+                <p>
+                    Meu trabalho terapêutico é construído para ser um espaço seguro, acolhedor e totalmente voltado para você. Um lugar onde é possível falar com liberdade sobre o que você está vivendo, sentindo e pensando, além de refletir sobre aquilo que deseja compreender melhor ou transformar na sua vida.
+                </p>
+                <p>
+                    Atuo com a abordagem da Análise do Comportamento, que busca entender como nossos comportamentos, emoções e pensamentos foram aprendidos ao longo da vida, considerando também a influência do ambiente em tudo isso. A partir desse olhar, conseguimos identificar padrões, compreender suas origens e, principalmente, construir caminhos mais saudáveis e funcionais para o seu dia a dia.
+                </p>
+            </div>
+
+            <div class="flex flex-col gap-8">
+
+                <div class="border border-taupe/30 bg-[#F4EFE6] p-8 rounded-2xl shadow-sm">
+                    <h3 class="text-2xl font-serif text-taupe-escuro mb-4">O Processo</h3>
+                    <p class="leading-relaxed text-sm md:text-base">
+                        Na prática, o processo terapêutico é individualizado e acontece no seu ritmo , respeitando sua história, suas necessidades e seus objetivos. Juntos, vamos trabalhar para que você possa viver de forma mais leve, com mais sentido e menos sofrimento, desenvolvendo estratégias que façam diferença real na sua rotina. 
+                    </p>
+                </div>
+
+                <div class="border border-taupe/30 bg-[#F4EFE6] p-8 rounded-2xl shadow-sm">
+                        <h3 class="text-2xl font-serif text-taupe-escuro mb-4">Primeira Sessão</h3>
+                        <p class="leading-relaxed text-sm md:text-base">
+                            Se fizer sentido para você, podemos iniciar com uma primeira sessão, onde você terá a oportunidade de compartilhar um pouco da sua história e entender como posso te acompanhar nesse processo.
+                        </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    
+    <section id="especialidades" class="py-24 lg:py-32 px-6 lg:px-12 bg-[#F9F7F2] relative overflow-hidden">
+    
+    <div class="absolute bottom-0 right-0 w-96 h-96 bg-[#C89F8A]/10 rounded-full blur-3xl"></div>
+
+    <div class="max-w-7xl mx-auto relative z-10">
+        
+        <div class="text-center mb-16 animate-fadeIn">
+            <span class="inline-block text-sm tracking-widest text-[#C89F8A] uppercase mb-4 font-medium">
+                Áreas de Especialização
+            </span>
+            <h2 class="font-serif text-4xl lg:text-5xl text-[#8B7D72] mb-6">
+                Como Posso <span class="italic text-[#C89F8A]">Ajudar</span>
+            </h2>
+            <div class="w-24 h-1 bg-gradient-to-r from-transparent via-[#C89F8A] to-transparent mx-auto"></div>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <div class="group bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-500 border border-[#8B7D72]/5 hover:border-[#C89F8A]/20 hover:-translate-y-2 animate-fadeInUp">
+                <div class="w-16 h-16 bg-[#C89F8A]/10 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                    <i data-lucide="brain" class="w-8 h-8 text-[#C89F8A]" stroke-width="1.5"></i>
+                </div>
+                <h3 class="font-serif text-2xl text-[#8B7D72] mb-3">Ansiedade</h3>
+                <p class="text-[#A89B91] leading-relaxed">Ferramentas e estratégias para gerenciar preocupação, pânico e estresse de forma eficaz.</p>
+            </div>
+
+            <div class="group bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-500 border border-[#8B7D72]/5 hover:border-[#C89F8A]/20 hover:-translate-y-2 animate-fadeInUp" style="animation-delay: 0.1s;">
+                <div class="w-16 h-16 bg-[#A8B5A3]/10 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                    <i data-lucide="heart" class="w-8 h-8 text-[#A8B5A3]" stroke-width="1.5"></i>
+                </div>
+                <h3 class="font-serif text-2xl text-[#8B7D72] mb-3">Depressão</h3>
+                <p class="text-[#A89B91] leading-relaxed">Suporte compassivo para navegar pelo humor baixo e encontrar um propósito renovado.</p>
+            </div>
+
+            <div class="group bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-500 border border-[#8B7D72]/5 hover:border-[#C89F8A]/20 hover:-translate-y-2 animate-fadeInUp" style="animation-delay: 0.2s;">
+                <div class="w-16 h-16 bg-[#8B7D72]/10 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                    <i data-lucide="users" class="w-8 h-8 text-[#8B7D72]" stroke-width="1.5"></i>
+                </div>
+                <h3 class="font-serif text-2xl text-[#8B7D72] mb-3">Relacionamentos</h3>
+                <p class="text-[#A89B91] leading-relaxed">Fortalecendo conexões e comunicação em relacionamentos pessoais.</p>
+            </div>
+
+            <div class="group bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-500 border border-[#8B7D72]/5 hover:border-[#C89F8A]/20 hover:-translate-y-2 animate-fadeInUp" style="animation-delay: 0.3s;">
+                <div class="w-16 h-16 bg-[#D4C8BC]/20 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                    <i data-lucide="sunrise" class="w-8 h-8 text-[#8B7D72]" stroke-width="1.5"></i>
+                </div>
+                <h3 class="font-serif text-2xl text-[#8B7D72] mb-3">Transições de Vida</h3>
+                <p class="text-[#A89B91] leading-relaxed">Navegue por mudanças importantes com clareza e confiança.</p>
+            </div>
+
+            <div class="group bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-500 border border-[#8B7D72]/5 hover:border-[#C89F8A]/20 hover:-translate-y-2 animate-fadeInUp" style="animation-delay: 0.4s;">
+                <div class="w-16 h-16 bg-[#C89F8A]/10 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                    <i data-lucide="shield" class="w-8 h-8 text-[#C89F8A]" stroke-width="1.5"></i>
+                </div>
+                <h3 class="font-serif text-2xl text-[#8B7D72] mb-3">Trauma & TEPT</h3>
+                <p class="text-[#A89B91] leading-relaxed">Cuidado informado sobre trauma para processar experiências difíceis com segurança.</p>
+            </div>
+
+            <div class="group bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-500 border border-[#8B7D72]/5 hover:border-[#C89F8A]/20 hover:-translate-y-2 animate-fadeInUp" style="animation-delay: 0.5s;">
+                <div class="w-16 h-16 bg-[#A8B5A3]/10 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                    <i data-lucide="lightbulb" class="w-8 h-8 text-[#A8B5A3]" stroke-width="1.5"></i>
+                </div>
+                <h3 class="font-serif text-2xl text-[#8B7D72] mb-3">Autoestima</h3>
+                <p class="text-[#A89B91] leading-relaxed">Construindo confiança e desenvolvendo uma autoimagem mais saudável.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="contato" class="py-24 px-8 md:px-16 bg-[#F9F7F2]">
+    <div class="max-w-7xl mx-auto">
+        
+        <div class="text-center mb-16 animate-fadeInUp">
+            <span class="text-sm tracking-widest text-[#C89F8A] uppercase font-medium">Entre em Contato</span>
+            <h2 class="font-serif text-4xl md:text-5xl text-[#8B7D72] mt-4">Comece Sua Jornada</h2>
+            <p class="mt-6 text-[#A89B91] max-w-2xl mx-auto leading-relaxed">
+                Dar o primeiro passo é muitas vezes o mais difícil. Estou aqui para acolher você nesse processo. Entre em contato para conversarmos sobre como posso te acompanhar.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+            
+            <div class="flex flex-col gap-8">
+                
+                <div class="bg-white p-8 rounded-2xl border border-[#8B7D72]/10 shadow-sm animate-fadeInUp">
+                    <h3 class="font-serif text-2xl text-[#8B7D72] mb-8">Informações de Contato</h3>
+                    <ul class="flex flex-col gap-6">
+                        <li class="flex items-start gap-4">
+                            <div class="bg-[#8B7D72]/10 p-3 rounded-full text-[#8B7D72]">
+                                <i data-lucide="mail" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <p class="text-sm text-[#A89B91]">Email</p>
+                                <a href="mailto:contato@arielmercya.com.br" class="text-[#665C54] hover:text-[#C89F8A] transition">ariel_mercya@hotmail.com</a>
+                            </div>
+                        </li>
+                        
+                        <li class="flex items-start gap-4">
+                            <div class="bg-[#8B7D72]/10 p-3 rounded-full text-[#8B7D72]">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5">
+                                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                    <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="text-sm text-[#A89B91]">Instagram</p>
+                                <a href="https://www.instagram.com/arielmercyapsi" class="text-[#665C54] hover:text-[#C89F8A] transition">@arielmercyapsi</a>
+                            </div>
+                        </li>
+                        
+                        <li class="flex items-start gap-4">
+                            <div class="bg-[#8B7D72]/10 p-3 rounded-full text-[#8B7D72]">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5">
+                                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                    <rect width="4" height="12" x="2" y="9"></rect>
+                                    <circle cx="4" cy="4" r="2"></circle>
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="text-sm text-[#A89B91]">LinkedIn</p>
+                                <a href="https://www.linkedin.com/in/ariel-mercya-barros-537743308/" class="text-[#665C54] hover:text-[#C89F8A] transition">Ariel Mercya</a>
+                            </div>
+                        </li>
+
+                        <li class="flex items-start gap-4">
+                            <div class="bg-[#8B7D72]/10 p-3 rounded-full text-[#8B7D72]">
+                                <i data-lucide="map-pin" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <p class="text-sm text-[#A89B91]">Consultório</p>
+                                <p class="text-[#665C54]">Rua Amâncio Pedroso de Jesus Neto, 6<br>Cuiabá, MT</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="bg-[#8B7D72] text-[#F9F7F2] p-8 rounded-2xl animate-fadeInUp" style="animation-delay: 0.1s;">
+                    <h3 class="font-serif text-2xl mb-6">Horário de Atendimento</h3>
+                    <ul class="flex flex-col gap-4 text-sm md:text-base">
+                        <li class="flex justify-between border-b border-[#F9F7F2]/20 pb-3">
+                            <span>Segunda - Quinta</span><span>9h - 19h</span>
+                        </li>
+                        <li class="flex justify-between border-b border-[#F9F7F2]/20 pb-3">
+                            <span>Sexta-feira</span><span>9h - 17h</span>
+                        </li>
+                        <li class="flex justify-between">
+                            <span>Sábado</span><span>8h - 12h</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="bg-white p-8 rounded-2xl border border-[#8B7D72]/10 shadow-sm self-start animate-fadeInUp" style="animation-delay: 0.2s;">
+                <h3 class="font-serif text-3xl text-[#8B7D72] mb-6">Vamos Conversar?</h3>
+                <p class="text-[#A89B91] leading-relaxed mb-8">
+                    Dar o primeiro passo pode ser desafiador, mas estou aqui para te acolher. Entre em contato e vamos conversar sobre como posso te acompanhar.
+                </p>
+                
+                <a href="https://wa.me/5565992280410" target="_blank" class="w-full bg-[#665C54] text-[#F9F7F2] py-4 rounded-full font-medium flex items-center justify-center gap-3 hover:bg-[#8B7D72] transition-all">
+                    <span>Enviar Mensagem</span>
+                    <i data-lucide="send" class="w-5 h-5"></i>
+                </a>
+                
+                <p class="text-xs text-center text-[#A89B91] mt-6">
+                    Comunicações confidenciais conforme o Código de Ética.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<footer class="bg-[#665C54] text-[#F9F7F2] py-10 text-center">
+        <div class="max-w-7xl mx-auto px-8 md:px-16">
+            <h2 class="font-serif text-2xl mb-4">Psi. Ariel Mercya</h2>
+            <p class="text-[#D4C8BC] text-sm mb-6 max-w-md mx-auto leading-relaxed">
+                Um espaço seguro e acolhedor para refletir, compreender suas emoções e construir caminhos mais saudáveis.
+            </p>
+            <div class="w-full h-px bg-[#8B7D72]/40 mb-6"></div>
+            
+            <p class="text-sm text-[#D4C8BC]/80">
+                &copy; 2026 Psi. Ariel Mercya. Todos os direitos reservados.
+            </p>
+        </div>
+    </footer>
+
+<script>
+  lucide.createIcons();
+</script>
+
+
+</body>
+</html>
